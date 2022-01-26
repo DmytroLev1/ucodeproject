@@ -1,0 +1,11 @@
+.app-header {
+  align-items: flex-end;
+}
+
+.app-header h1 {
+  flex-grow: 1;
+}
+
+body {
+  background: linear-gradient(270deg, rgb(18, 13, 78) 20%, rgba(9,121,71,1) 72%, rgba(16,134,81,1) 92%);
+}
