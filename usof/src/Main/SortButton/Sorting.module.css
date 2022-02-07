@@ -1,0 +1,9 @@
+
+.sorting {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 10px;
+    max-width: 100%;
+    font-size: 14px;
+}

@@ -1,0 +1,54 @@
+p {
+    margin: 0 20px;
+    width: 70%;
+    font-size: 14px;
+}
+.headerline {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input {
+    height: 30px;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: calc(33% - 15px);
+    height: 150px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.title {
+    margin: 5px 0;
+    font-size: 12px;
+}
+.title span {
+    width: auto;
+    
+    padding: 3px 10px;
+    background-color: rgb(198, 231, 198);
+    border-radius: 5px;
+}
+.wiki {
+    margin: 10px 0;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.count {
+    font-size: 10px;
+
+}

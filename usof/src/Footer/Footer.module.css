@@ -1,0 +1,10 @@
+.row {
+    grid-area: footer;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+    background: dimgray;
+    padding: 20px;
+    font-size: 12px;
+}

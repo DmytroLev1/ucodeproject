@@ -1,0 +1,20 @@
+.bar {
+    grid-area: bar;
+    display: block;
+    border-right: 1px solid lightgray;
+    padding-top: 30px;
+}
+
+.bar a {
+    text-decoration: none;
+}
+
+.bar a.active {
+    color: orange;
+}
+
+.public {
+    font-size: 13px;
+    color: dimgray;
+    margin: 0 0 15px 15px;
+}
