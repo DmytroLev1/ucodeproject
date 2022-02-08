@@ -1,0 +1,95 @@
+.user {
+    display: flex;
+    width: 800px;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.name {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 5px;
+}
+.location {
+    padding: 5px;
+    font-size: 14px;
+    color: gray;
+}
+.reputation {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(77, 77, 77);
+}
+.item {
+    margin: 20px 0 0 0;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.badges {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.badge {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 260px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+.gold {
+    font-size: 40px;
+    font-weight: 600;
+    color: gold;
+    padding: 10px;
+}
+.silver {
+    font-size: 40px;
+    font-weight: 600;
+    color: silver;
+    padding: 10px;
+}
+.bronze {
+    font-size: 40px;
+    font-weight: 600;
+    color: burlywood;
+    padding: 10px;
+}
+.counts {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 10px
+}
+.us {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+}

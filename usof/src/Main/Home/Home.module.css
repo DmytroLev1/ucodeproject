@@ -1,0 +1,123 @@
+.top {
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.items {
+    width: 100%; 
+}
+.item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    background: rgb(252, 252, 225);
+    align-items: center;
+    margin-right: 30px;
+}
+.cp {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.votes, .answer, .views {
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+.counts {
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.answered {
+    border: 1px solid green;
+    border-radius: 5px;
+}
+h2 {
+    padding-left: 20px;
+}
+.items {
+    width: 100%;
+}
+.summary {
+    display: inline-block;
+    flex: 1 1 auto;
+    margin-left: 10px;
+}
+
+.summary a {
+    text-decoration: none;
+    color: rgb(3, 121, 194);
+}
+.title {
+    width: 100%;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+
+.tags {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.tag {
+    float: left;
+    padding: 5px 8px;
+    background-color: rgb(198, 231, 198);
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+.started {
+    display: flex;
+    float: right;
+    font-size: 12px;
+    color: rgb(99, 99, 99);
+}
+.owner {
+    margin-left: 0.3em;
+}
+.reputation {
+    margin-left: 0.3em;
+    font-weight: 600;
+}
+.info {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.container {
+    padding: 10px 10px 10px 20px;
+}
+.header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+.tags {
+    margin-top: 10px;
+}
+.main {
+    margin-top: 10px;
+    display: flex;
+}
+.asside {
+    text-align: center;
+    margin: 0 20px;
+}
+.vote {
+    fill: gray;
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 5px 20px 0 0;
+    font-size: 14px;
+}
+
+.danger {
+    overflow: auto;
+}
+
