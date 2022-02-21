@@ -1,0 +1,35 @@
+.wramp-menu {
+    text-align: left;
+    width: 600px;
+    /* border: 1px solid #000000; */
+    height: 100%;
+    font-style: italic;
+    background: rgb(114,106,179);
+    background: linear-gradient(0deg, rgba(114,106,179,1) 3%, rgba(0,255,179,1) 100%);
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.a {
+    font-size: 1.5em;
+    margin: 0 35px;
+    
+}
+
+#f {
+    margin: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border: none; 
+    color: black; 
+    background-color: black; 
+    height: 2px; 
+    margin: 0 25px;
+   }
