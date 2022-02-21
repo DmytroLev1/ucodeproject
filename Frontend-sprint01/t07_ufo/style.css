@@ -1,0 +1,25 @@
+#alian{
+    width: 500px;
+}
+
+img {
+width: 50px;
+padding: 10px;
+margin-left: 10px;
+}
+
+.conteiner {
+    margin-left: 20px;
+}
+
+
+#alian:hover+.allline > div:nth-child(even) > 
+img:nth-child(even){
+opacity: 0;
+}
+
+#alian:hover+.allline > div:nth-child(odd) > 
+img:nth-child(odd){
+opacity: 0;
+}
+

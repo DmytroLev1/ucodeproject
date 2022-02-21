@@ -1,0 +1,12 @@
+img {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0 10px
+}
+
+@media print {
+    div {
+    float: right;
+   }
+}

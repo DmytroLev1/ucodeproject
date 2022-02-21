@@ -1,0 +1,23 @@
+.main-nav {
+	flex-flow: row wrap;
+}
+
+h2 {
+	margin: 50px;
+	text-align: center;
+	border: 2px black;
+}
+
+.search {
+	display: flex;
+}
+
+.block {
+	flex: 1;
+	margin: 0 -3px;
+}
+
+.block2 {
+background-color: rgb(211, 186, 186);
+margin: 0 0 2px;
+}

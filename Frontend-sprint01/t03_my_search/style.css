@@ -1,0 +1,24 @@
+input {
+    width: 500px;
+    color: green;
+   
+}
+input:hover {
+    color: red;
+    border: 1px solid red ;
+}
+span:hover {
+    color: red;
+  }
+
+
+button:hover {
+    color: green;
+  }
+button {
+    width: 50px;
+    height: 21px;
+    color: green;
+    position: absolute;
+    border-radius: 0;   
+}

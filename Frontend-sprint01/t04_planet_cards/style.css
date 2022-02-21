@@ -1,0 +1,70 @@
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: space-between;
+	border-color: black;
+	margin: 50px;
+	font-family: Verdana;
+ }
+ 
+ .block {
+	 width: 270px;
+	 height: 140px;
+	 border-radius: 5px;
+ }
+
+ .block.earth {
+	background: linear-gradient(370deg, #e185e2 20%, #5076f5 80%);
+	 margin: 0 10px 90px 0;
+ }
+
+ .block.jupiter {
+	background: linear-gradient(140deg, #ec1911dc 10%, #bb2227 90%);
+	margin: 0 10px 90px 0;
+}
+.block.mars {
+	background: linear-gradient(90deg, #000 20%, #550554 90%);
+	margin: 0 10px 90px 0;
+}
+.block.neptun {
+	background: linear-gradient(180deg, #bd342f 20%, #000 90%);
+	margin: 0 10px 90px 0;
+}
+
+ .text {
+	 text-align: right;
+	 font-size: 12px;
+	 margin-top: 5px;
+	 margin-right: 15px;
+	 color: white;
+ }
+
+ .text span {
+	font-size: 9px;
+	color: rgba(255, 255, 255,0.5);
+ }
+
+ .img_planet {
+	 width: 185px;
+	 height: auto;
+	 margin-left: 10px;
+ }
+
+ .img_planet.earth{
+	 margin-top: -74px;
+ }
+
+ .img_planet.mars {
+	 margin-top: -74px;
+ }
+
+ .img_planet.jupiter {
+	margin-top: -31px;
+ }
+
+ .img_planet.neptun {
+	margin-top: -30px;
+ }
