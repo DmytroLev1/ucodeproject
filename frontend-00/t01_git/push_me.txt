@@ -1,0 +1,4 @@
+git add 'nameFile'
+git commit -m 'comentari'
+git push
+
